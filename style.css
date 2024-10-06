@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.header .logo img {
+    width: 100px;
+}
+
+.header .navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header .navbar ul li a:hover {
+    color: blue;
+}
+
+.header .header-btn button{
+    padding: 16px 30px;
+    cursor: pointer;
+    background-color: deeppink;
+    color: white;
+    border: 2px solid deeppink;
+    border-radius: 10px;
+}
+
+.header .header-btn button:hover {
+    background-color: rgb(221, 98, 164);
+    color: black;
+}
